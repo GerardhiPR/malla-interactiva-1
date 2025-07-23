@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Curricular Medicina</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Malla Curricular - Medicina</h1>
+  <button id="reset">Reiniciar progreso</button>
+
+  <div class="year">
+    <h2>Optativas</h2>
+    <div class="course" data-id="genetica" data-prereq="biologia">Genética</div>
+    <div class="course" data-id="inmunologia" data-prereq="fisiologia,bioquimica">Inmunología</div>
+    <div class="course" data-id="saludambiental" data-prereq="cienciassociales">Salud Ambiental</div>
+    <div class="course" data-id="educacionparalasalud" data-prereq="cienciassociales">Educación para la Salud</div>
+    <div class="course" data-id="bioquimicaclinica1" data-prereq="bioquimica">Bioquímica Clínica I</div>
+    <div class="course" data-id="bioquimicaclinica2" data-prereq="bioquimica">Bioquímica Clínica II</div>
+    <div class="course" data-id="filosofiamedica" data-prereq="cienciassociales">Filosofía Médica</div>
+    <div class="course" data-id="cirugiatorax" data-prereq="cirugia1">Cirugía de Tórax</div>
+    <div class="course" data-id="discapacidadintelectual" data-prereq="semiologia">Discapacidad Intelectual</div>
+    <div class="course" data-id="nutricionclinica" data-prereq="fisiologia,bioquimica">Nutrición Clínica</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

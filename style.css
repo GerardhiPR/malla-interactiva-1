@@ -1,0 +1,60 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+h1 {
+  color: #004d98;
+}
+
+h2 {
+  color: #a50044;
+  border-bottom: 2px solid #a50044;
+}
+
+.year {
+  margin-bottom: 30px;
+}
+
+.course {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 15px;
+  background: #fff;
+  border: 2px solid #a50044;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  color: #004d98;
+}
+
+.course:hover {
+  background: #ffe600;
+}
+
+.completed {
+  text-decoration: line-through;
+  background: #dcdcdc;
+  border-color: #999;
+  cursor: default;
+  color: #999;
+}
+
+.locked {
+  background: #eee;
+  border-color: #aaa;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+#reset {
+  margin: 20px 0;
+  padding: 10px 20px;
+  background: #a50044;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
